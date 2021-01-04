@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">caipu</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_your_name">请输入用户名</string>
+    <string name="login">登录</string>
+    <string name="input_your_password">请输入密码</string>
+    <string name="second_input_your_password">请再次输入密码</string>
+    <string name="person_login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_cookbook_list_">cookbook_list_Activity</string>
+    <string name="title_activity_news">newsActivity</string>
+    <string name="cai_pin">菜品</string>
+    <string name="choose_cai">选择菜品</string>
+</resources>

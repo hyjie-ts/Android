@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="	#FFFFFF	"
+        android:layout_above="@id/main_rgroupTabMenu"/>
+
+    <RadioGroup
+        android:id="@+id/main_rgroupTabMenu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF	"
+        android:layout_alignParentBottom="true">
+
+        <RadioButton
+            android:id="@+id/main_rbtnChannel"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/tab_menu_channel"
+            android:text="视频" />
+
+        <RadioButton
+            android:id="@+id/main_rbtnMessage"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:text="菜谱" />
+
+        <RadioButton
+            android:id="@+id/main_rbtnMore"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/tab_menu_my"
+            android:text="收藏" />
+
+        <RadioButton
+            android:id="@+id/main_rbtnMy"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/tab_menu_better"
+            android:text="我的" />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/div_tab_bar"
+        android:id="@+id/ly_content">
+
+    </FrameLayout>
+
+</RelativeLayout>
